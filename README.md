@@ -1,9 +1,8 @@
 # Secure Image Package Viewer
 
 ## Overview
-
-The **Secure Image Package Viewer** is a modern graphical application built with Python and CustomTkinter. It allows users to view, validate, and manage secure image packages (SVPK files). The app ensures image and metadata integrity using cryptographic verification techniques, making it suitable for handling secure or authenticated image files.
-
+The **Secure Image Package Viewer** is a modern graphical application built with Python and CustomTkinter. It allows users to Package an image with its data (metadata in json format),and after extract their image with hash verification for the image itself and for the metadata. it can also view and manage secure image packages (SVPK files). The app ensures image and metadata integrity using cryptographic verification techniques, making it suitable for handling secure or authenticated image files.
+*the SVPK file extension is used by "Synthesizer V", so dont confuse between the two files! 
 <img src="https://raw.githubusercontent.com/taldb/SVPK_File/refs/heads/main/images/1.png" alt="Main app GUI" width="500" height="300"/><img src="https://raw.githubusercontent.com/taldb/SVPK_File/refs/heads/main/images/2.png" alt="Main app GUI" width="500" height="300"/><img src="https://raw.githubusercontent.com/taldb/SVPK_File/refs/heads/main/images/3.png" alt="Main app GUI" width="500" height="300"/>
 
 ##### (Version 1.0.1)
