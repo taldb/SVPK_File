@@ -122,6 +122,14 @@ A typical `.svpk` file contains the following sections:
 
 ---
 
+### More
+
+- Use the files in the 'test' directory, make sure to use them with their correct PEM key files (are in the same directory).
+- use generateKeys to create a pair of Keys for the Hashing and encryption 
+
+---
+
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
