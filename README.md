@@ -11,6 +11,12 @@ The **Secure Image Package Viewer** is a modern graphical application built with
 
 ##### (Version 1.0.1)
 
+
+### Why I Created This Program
+
+I created this application as part of a project to build a DIY Street View backpack. The goal was to develop a way to securely store images alongside the device's sensor data (such as GPS and orientation) in a single file. This program ensures that the image data and metadata are securely packaged and cryptographically verified. If any corruption occurs during storage or transmission, the application will notify me through hash verification, ensuring data integrity throughout the process.
+
+
 ---
 
 ## Features
