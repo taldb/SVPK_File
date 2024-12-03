@@ -96,7 +96,7 @@ Results are displayed in the **Verification** tab.
 
 - **Ctrl + O**: Open a file
 - **Ctrl + C**: Copy metadata
-- **Ctrl + S**: Create a secure file
+- **Ctrl + S**: Create a svpk file
 - **Ctrl + E**: Extract the embedded image
 
 ---
