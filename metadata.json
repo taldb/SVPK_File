@@ -1,0 +1,80 @@
+{
+    "Root": {
+        "FileFormatVersion": "1.0.1",
+        "BackpackVersion": "1.0.0",
+        "BackpackID": "0",
+        "BackpackOwner": "Dennis"
+    },
+    "Location": {
+        "Latitude": 32.0853,
+        "Longitude": 34.7818,
+        "Accuracy": {
+            "GPS": 5.0,
+            "Altitude": 1.0
+        }
+    },
+    "Sensors": {
+        "Temperature": 26.8,
+        "Altitude": 79.1,
+        "Humidity": 50.0,
+        "Pressure": 1012.80,
+        "WindSpeed": 5.4,
+        "LightIntensity": 300,
+        "IMU": {
+            "Accelerometer": {
+                "X": 0.01,
+                "Y": -0.02,
+                "Z": 9.81
+            },
+            "Gyroscope": {
+                "X": 0.5,
+                "Y": 1.0,
+                "Z": -0.5
+            },
+            "Magnetometer": {
+                "X": 123.4,
+                "Y": -56.7,
+                "Z": 78.9
+            }
+        }
+    },
+    "CameraSettings": {
+        "ISO": 400,
+        "Exposure": 0.004,
+        "Aperture": 4.0,
+        "WhiteBalance": "daylight"
+    },
+    "Timestamp": "2024-10-18T12:15:00Z",
+    "BatteryLevel": 80,
+    "Status": "active",
+    "Trip": {
+        "TripID": "0Xg51",
+        "StartTime": "2024-10-18T10:00:00Z",
+        "EndTime": "2024-10-19T12:30:00Z",
+        "Duration": "DD:HH:MM"
+    },
+    "Owner": {
+        "Name": "Dennis",
+        "Contact": "dennis@example.com"
+    },
+    "Orientation": {
+        "Pitch": 0.0,
+        "Roll": 0.0,
+        "Yaw": 180.0
+    },
+    "ErrorLogs": [
+        {
+            "Timestamp": "2024-10-18T12:15:01Z",
+            "Error": "Camera malfunction"
+        }
+    ],
+    "Environment": {
+        "Weather": "sunny",
+        "WindDirection": "north",
+        "Precipitation": 0.0
+    },
+    "Device": {
+        "Model": "Backpack Model X",
+        "FirmwareVersion": "1.0.2"
+    }
+}

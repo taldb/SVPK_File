@@ -1,0 +1,28 @@
+[HEADER]
+Version: 101
+Image Size: bytes size
+Image Type: jpg
+Metadata Size: json metadata charsize
+Signature Size: signature charsize
+Imagehash Size: hash charsize
+[END_HEADER]
+
+
+[IMAGEDATA,type:jpg]
+image bytes
+[ENDIMAGEDATA]
+
+
+[METADATA]
+json data
+[END_METADATA]
+
+
+[SIGNATURE]
+PKCS #15 base64 encoded signature
+[END_SIGNATURE]
+
+
+[IMAGEHASH]
+SHA-1 Image hash
+[END_IMAGEHASH]
