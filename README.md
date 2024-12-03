@@ -111,7 +111,7 @@ A typical `.svpk` file contains the following sections:
    - SHA-1 hash of the image data.
 
 ### Example in-file:
-[HEADER]
+```[HEADER]
 Version: 101
 Image Size:--Bytes Length--
 Image Type: jpg
@@ -135,7 +135,7 @@ Imagehash Size:--Image Hash Char Length--
 [IMAGEHASH]
 --SHA-1 Hash--
 [END_IMAGEHASH]
-
+```
 
 ---
 
