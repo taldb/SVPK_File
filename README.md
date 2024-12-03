@@ -1,8 +1,5 @@
 # Secure Image Package Viewer
 
-**Author:** Dennis  
-**GitHub:** [https://github.com/taldb](https://github.com/taldb)
-
 ## Overview
 
 The **Secure Image Package Viewer** is a modern graphical application built with Python and CustomTkinter. It allows users to view, validate, and manage secure image packages (SVPK files). The app ensures image and metadata integrity using cryptographic verification techniques, making it suitable for handling secure or authenticated image files.
@@ -133,4 +130,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For inquiries, please visit [Dennis' GitHub Profile](https://github.com/taldb).
+For inquiries, email me!
