@@ -1,3 +1,4 @@
+
 # Secure Image Package Viewer
 
 ## Overview
@@ -108,6 +109,33 @@ A typical `.svpk` file contains the following sections:
    - RSA signature of the metadata hash.
 5. **Image Hash**:
    - SHA-1 hash of the image data.
+
+### Example in-file:
+[HEADER]
+Version: 101
+Image Size:--Bytes Length--
+Image Type: jpg
+Metadata Size:--Metadata Char Length--
+Signature Size:--Signature Char Length--
+Imagehash Size:--Image Hash Char Length--
+[END_HEADER]
+
+[IMAGEDATA,type:jpg]
+--Binary Data--
+[ENDIMAGEDATA]
+
+[METADATA]
+--Metadata--
+[END_METADATA]
+
+[SIGNATURE]
+--Base64 Encoded Signature--
+[END_SIGNATURE]
+
+[IMAGEHASH]
+--SHA-1 Hash--
+[END_IMAGEHASH]
+
 
 ---
 
