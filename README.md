@@ -154,18 +154,19 @@ Imagehash Size:--Image Hash Char Length--
 - **Image Handling**: Pillow
 - **Clipboard Management**: Pyperclip
 
-### Future Improvements
+### TODO
 
 - Add support for additional cryptographic algorithms.
 - Improve metadata visualization.
 - Enable batch processing of multiple files.
-
+- Make a way to encrypt a picture (you could only view it using a PEM file)
+- Add console commands (to make tasks without a UI)
 ---
 
 ### More
 
 - Use the files in the 'test' directory, make sure to use them with their correct PEM key files (are in the same directory).
-- use generateKeys to create a pair of Keys for the Hashing and encryption 
+- use generateKeys to create a pair of Keys for the Hashing and encryption .
 
 ---
 
